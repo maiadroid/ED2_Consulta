@@ -46,6 +46,8 @@ A árvore AVL é muito útil, pois executa as operações de inserção, busca e
 Comparado-a com a árvore rubro-negra, a AVL é mais rápido nas aplicações que fazem uma quantidade excessiva de buscas, porém esta estrutura é um pouco mais lenta para inserção e remoção.
 Isso se deve ao fato de as árvores AVL serem mais rigidamente balanceadas.
 
+Medida de desbalanceamento é o chamado fator de equilibrio. Para estar balanceada, tem que ser <= 1. Se >= 2, está desbalanceada.
+
 O equilibrio das árvores é corrigido através de rotações.
 - Rotação á esquerda
 - Rotação a direita
